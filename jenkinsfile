@@ -1,0 +1,40 @@
+pipeline {
+    agent any
+    stages {
+        stage ("developement stage") {
+            steps {
+                echo "practice make perfect"
+            }
+        }
+
+        stage ("testing stage") {
+            steps {
+                echo "patient goes alongway"
+            }
+        }
+
+        stage ("Qa stage") {
+            steps {
+                echo " transparency"
+            }
+        }
+
+        stage ("monitoring stage"){
+            steps {
+                echo "Quality check"
+            }
+        }
+
+        stage ("git checkout stage"){
+            steps {
+                echo "git checkout"
+            }
+        }
+
+        stage ("terraform used as local"){
+            steps {
+                echo "code managed"
+            }
+        }
+    }
+}
