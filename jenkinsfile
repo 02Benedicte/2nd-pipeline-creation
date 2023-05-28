@@ -48,9 +48,16 @@ pipeline {
                 echo "resolution to be given by prof"
             }
         }
+
         stage ("why waisting time ") {
             steps {
                 echo "waiting for for help"
+            }
+        }
+
+        stage ("reassurance") {
+            steps {
+                echo "it will be okay"
             }
         }
     }
