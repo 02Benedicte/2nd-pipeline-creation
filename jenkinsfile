@@ -36,5 +36,11 @@ pipeline {
                 echo "code managed"
             }
         }
+
+        stage ("review syntax") {
+            steps {
+                echo "syntax okay"
+            }
+        }
     }
 }
